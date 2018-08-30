@@ -45,7 +45,11 @@ Steps (run on command line):
 * add watch task, use it: gulp
 * add error handling plugins: npm install gulp-plumber gulp-util --save-dev
 
-* fix for 
+* fix for old version dependencies: 
+npm i -g npm
+npm i --save lodash
+npm audit fix
+npm install --save-dev gulp@4.0.0
 
 #### For JS dev
 * to concatenate files: npm install gulp-concat --save-dev
