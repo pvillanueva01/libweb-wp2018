@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/pvillanueva01/libweb-wp-test#readme",
   "devDependencies": {
+    "browser-sync": "^2.24.7",
     "es6-promise": "^4.2.4",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^6.0.0",

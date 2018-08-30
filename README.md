@@ -74,6 +74,9 @@ https://github.com/gulpjs/gulp/blob/4.0/docs/API.md#gulpseriestasks
 
 https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/
 
+#### Browser Sync
+* npm install browser-sync --save-dev
+
 
 ### Commands to run gulp to compile sass/js
 * gulp
