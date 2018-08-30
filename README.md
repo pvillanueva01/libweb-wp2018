@@ -30,12 +30,30 @@ Reference:
 <https://whizbangapps.com/blog/setting-up-wordpress-with-underscores-and-gulp>
 
 Steps (run on command line):
+#### Global
 * Install globally: npm install gulp -g
 * check version: gulp -v
 
+#### Inside directory, SASS dev
 * go to theme directory to create a package.json file, run: npm init
 * install Gulp as a development dependency, node_modules is created, run: npm install gulp --save-dev
-* add es6-promise polyfill,run:  npm install es6-promise --save-dev
+* add es6-promise polyfill, run:  npm install es6-promise --save-dev
+* create an empty gulpfile.js configuration file, test it: gulp
+
+* install gulp-sass and gulp-autoprefixer plugins, run: npm install gulp-sass gulp-autoprefixer --save-dev
+* create a sass task in gulpfile.js, test it: gulp sass
+* add watch task, use it: gulp
+* add error handling plugins: npm install gulp-plumber gulp-util --save-dev
+
+#### For JS dev
+* to concatenate files: npm install gulp-concat --save-dev
+* to validate js: npm install gulp-jshint --save-dev
+* to minify code: npm install gulp-uglify --save-dev
+
+
+### Commands to run gulp to compile sass/js
+* gulp
+
 
 
 
