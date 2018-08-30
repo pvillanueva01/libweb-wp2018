@@ -77,7 +77,7 @@ $table_prefix  = 'libweb_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -89,3 +89,5 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 define( 'DISALLOW_FILE_EDIT', true);
+define( 'TC_PRE', 'Theme Review:[[br]]');
+define( 'TC_POST', 'Post Theme Review:[[br]]' );

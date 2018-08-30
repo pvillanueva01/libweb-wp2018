@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package UML
+ * @package uml-lib
  */
 
 if ( ! function_exists( 'uml_lib_posted_on' ) ) :

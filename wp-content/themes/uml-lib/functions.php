@@ -1,10 +1,10 @@
 <?php
 /**
- * UML functions and definitions
+ * uml-lib functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package UML
+ * @package uml-lib
  */
 
 if ( ! function_exists( 'uml_lib_setup' ) ) :
@@ -19,7 +19,7 @@ if ( ! function_exists( 'uml_lib_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on UML, use a find and replace
+		 * If you're building a theme based on uml-lib, use a find and replace
 		 * to change 'uml-lib' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'uml-lib', get_template_directory() . '/languages' );

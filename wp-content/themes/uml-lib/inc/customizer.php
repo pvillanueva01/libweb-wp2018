@@ -1,8 +1,8 @@
 <?php
 /**
- * UML Theme Customizer
+ * uml-lib Theme Customizer
  *
- * @package UML
+ * @package uml-lib
  */
 
 /**
