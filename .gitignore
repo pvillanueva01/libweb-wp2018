@@ -1,0 +1,5 @@
+# IDE
+.idea/
+uml-wp-test.iml
+wp-config-sample.php
+wp-config.php
