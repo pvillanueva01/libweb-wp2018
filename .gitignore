@@ -1,5 +1,15 @@
 # IDE
-.idea/
+.idea/*
 uml-wp-test.iml
-wp-config-sample.php
+
+# WordPress template
 wp-config.php
+wp-config-sample.php
+wp-content/uploads/
+wp-content/plugins/
+wp-admin/
+wp-includes/
+
+/.htaccess
+/license.txt
+/readme.html
