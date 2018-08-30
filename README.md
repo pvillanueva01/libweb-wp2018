@@ -6,7 +6,7 @@ WP Files Misc Testing
 
 ## Environment Dependencies
 * Homebrew 1.7.2 (https://brew.sh/) | check version: brew -v | update: brew update
-* NPM 5.6.0 (https://docs.npmjs.com/cli/update) | check version: npm -v | update: npm update -g
+* NPM 6.4.1 (https://docs.npmjs.com/cli/update) | check version: npm -v | update: npm update -g
 * Node 8.9.4 (https://nodejs.org/) | node -v
 * Yarn 1.5.1 (https://yarnpkg.com/lang/en/docs/install/) | yarn --version
 * Browser Sync 2.24.7 (https://browsersync.io/) | browser-sync -v
@@ -44,6 +44,8 @@ Steps (run on command line):
 * create a sass task in gulpfile.js, test it: gulp sass
 * add watch task, use it: gulp
 * add error handling plugins: npm install gulp-plumber gulp-util --save-dev
+
+* fix for 
 
 #### For JS dev
 * to concatenate files: npm install gulp-concat --save-dev

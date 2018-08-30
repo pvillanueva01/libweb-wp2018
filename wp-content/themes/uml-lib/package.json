@@ -24,7 +24,7 @@
   "homepage": "https://github.com/pvillanueva01/libweb-wp-test#readme",
   "devDependencies": {
     "es6-promise": "^4.2.4",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.1.0",
@@ -32,5 +32,8 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
