@@ -14,4 +14,7 @@ WP Files Misc Testing
 * define( 'TC_PRE', 'Theme Review:[[br]]');   // For Theme Check plugin
 * define( 'TC_POST', 'Post Theme Review:[[br]]' ); // For Theme Check plugin
 
+### Starter theme
+Credit to Underscores or _s <https://github.com/Automattic/_s >
+
 
