@@ -31,12 +31,22 @@ Reference:
 
 Steps (run on command line):
 #### Global
-* Install globally: npm install gulp -g
+* Remove older versions:
+npm rm -g gulp 
+npm uninstall --global gulp gulp-cli
+rm /usr/local/share/man/man1/gulp.1
+
+* Install globally: npm install gulp -g  || npm install -g gulp-cli 
 * check version: gulp -v
 
 #### Inside directory, SASS dev
 * go to theme directory to create a package.json file, run: npm init
-* install Gulp as a development dependency, node_modules is created, run: npm install gulp --save-dev
+* install Gulp as a development dependency, node_modules is created, run: 
+
+- remove older versions:
+npm uninstall gulp --save-dev
+npm install 'gulpjs/gulp.git#4.0' --save-dev
+
 * add es6-promise polyfill, run:  npm install es6-promise --save-dev
 * create an empty gulpfile.js configuration file, test it: gulp
 
@@ -44,22 +54,27 @@ Steps (run on command line):
 * create a sass task in gulpfile.js, test it: gulp sass
 * add watch task, use it: gulp
 * add error handling plugins: npm install gulp-plumber gulp-util --save-dev
+* add rename and rtl: npm install gulp-rtlcss gulp-rename --save-dev
 
 * fix for old version dependencies: 
 npm i -g npm
-npm i --save lodash
+npm i --save-dev lodash
 npm audit fix
 npm install --save-dev gulp@4.0.0
 
 #### For JS dev
 * to concatenate files: npm install gulp-concat --save-dev
-* to validate js: npm install gulp-jshint --save-dev
+* to validate js: npm install jshint gulp-jshint --save-dev
 * to minify code: npm install gulp-uglify --save-dev
+* add js task to gulpfile.js to read/conc js files in src/js/custom
+* create a .jshintrc configuration file in the theme root for js hint options
+
+Reference for issues with gulp v4 new syntax:
+https://github.com/gulpjs/gulp/blob/4.0/docs/API.md#gulpseriestasks
+
+https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/
 
 
 ### Commands to run gulp to compile sass/js
 * gulp
-
-
-
-
+* gulp js
