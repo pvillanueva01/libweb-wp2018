@@ -30,9 +30,12 @@ Reference:
 <https://whizbangapps.com/blog/setting-up-wordpress-with-underscores-and-gulp>
 
 Steps (run on command line):
-* npm install gulp -g
+* Install globally: npm install gulp -g
 * check version: gulp -v
+
 * go to theme directory to create a package.json file, run: npm init
+* install Gulp as a development dependency, node_modules is created, run: npm install gulp --save-dev
+* add es6-promise polyfill,run:  npm install es6-promise --save-dev
 
 
 

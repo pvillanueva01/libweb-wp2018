@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/pvillanueva01/libweb-wp-test/issues"
   },
-  "homepage": "https://github.com/pvillanueva01/libweb-wp-test#readme"
+  "homepage": "https://github.com/pvillanueva01/libweb-wp-test#readme",
+  "devDependencies": {
+    "es6-promise": "^4.2.4",
+    "gulp": "^3.9.1"
+  }
 }
