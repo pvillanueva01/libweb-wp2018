@@ -3,8 +3,10 @@ WP Files Misc Testing
 
 ## Setup
 * WP version 4.9.8 with classic editor enabled
-* Active plugins
-..* Theme Check <https://wordpress.org/plugins/theme-check/>
+
+
+## Active plugins
+* Theme Check <https://wordpress.org/plugins/theme-check/>
 
 ## Include in wp-config
 
