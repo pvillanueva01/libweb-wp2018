@@ -4,7 +4,6 @@ uml-wp-test.iml
 
 # WordPress template
 wp-config.php
-wp-config-sample.php
 wp-content/uploads/
 wp-content/plugins/
 wp-content/upgrade/
