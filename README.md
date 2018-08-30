@@ -10,6 +10,7 @@ WP Files Misc Testing
 * Node 8.9.4 (https://nodejs.org/) | node -v
 * Yarn 1.5.1 (https://yarnpkg.com/lang/en/docs/install/) | yarn --version
 * Browser Sync 2.24.7 (https://browsersync.io/) | browser-sync -v
+* Gulp 3.9.1 
 
 ## Active plugins
 * Theme Check <https://wordpress.org/plugins/theme-check/>
@@ -22,5 +23,16 @@ WP Files Misc Testing
 
 ### Starter theme
 Credit to Underscores or _s <https://github.com/Automattic/_s >
+
+### Gulp Setup - NPM -
+Reference: 
+<https://www.sitepoint.com/wordpress-theme-automation-with-gulp/>
+<https://whizbangapps.com/blog/setting-up-wordpress-with-underscores-and-gulp>
+
+Steps (run on command line):
+* npm install gulp -g
+* check version: gulp -v
+* go to theme directory to create a package.json file, run: npm init
+
 
 
