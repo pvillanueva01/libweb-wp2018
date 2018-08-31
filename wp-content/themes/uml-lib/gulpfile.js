@@ -21,12 +21,16 @@ var onError = function (err) {
     this.emit('end');
 };
 
+var autoprefixerOptions = {
+    browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
+};
+
 // SASS task
 gulp.task('sass', function() {
     return gulp.src('./sass/**/*.scss')
         .pipe(plumber({ errorHandler: onError }))
         .pipe(sass())
-        .pipe(autoprefixer())
+        .pipe(autoprefixer(autoprefixerOptions))
         .pipe(gulp.dest('./'))
 
         .pipe(rtlcss())                     // Convert to RTL

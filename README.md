@@ -38,7 +38,7 @@ npm rm -g gulp
 npm uninstall --global gulp gulp-cli
 rm /usr/local/share/man/man1/gulp.1
 
-* Install globally: npm install gulp -g  || npm install -g gulp-cli 
+* Install globally: npm install -g gulp-cli 
 * check version: gulp -v
 
 #### Inside directory, SASS dev
@@ -80,9 +80,12 @@ https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/
 * npm install browser-sync --save-dev
 
 #### Enhancements
+* Gulp copy assets task: to move needed libraries from node_modules to project root directory
+https://understrap.github.io/
 
-
+### Install dependencies after initial setup/cloning
+* npm install
+* gulp copy-assets
 
 ### Commands to run gulp to compile sass/js
 * gulp
-* gulp js
