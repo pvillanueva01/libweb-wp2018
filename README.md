@@ -1,8 +1,17 @@
 # libweb-wp-test
 WP Files Misc Testing
 
-## Setup
+## WP Setup
 * WP version 4.9.8 with classic editor enabled
+
+### Active plugins
+* Theme Check <https://wordpress.org/plugins/theme-check/>
+
+### Include in wp-config
+
+* define('WP_DEBUG', true);
+* define( 'TC_PRE', 'Theme Review:[[br]]');   // For Theme Check plugin
+* define( 'TC_POST', 'Post Theme Review:[[br]]' ); // For Theme Check plugin
 
 ## Environment Dependencies
 * Homebrew 1.7.2 (https://brew.sh/) | check version: brew -v | update: brew update
@@ -12,25 +21,18 @@ WP Files Misc Testing
 * Browser Sync 2.24.7 (https://browsersync.io/) | browser-sync -v
 * Gulp 3.9.1 
 
-## Active plugins
-* Theme Check <https://wordpress.org/plugins/theme-check/>
-
-## Include in wp-config
-
-* define('WP_DEBUG', true);
-* define( 'TC_PRE', 'Theme Review:[[br]]');   // For Theme Check plugin
-* define( 'TC_POST', 'Post Theme Review:[[br]]' ); // For Theme Check plugin
-
 ### Starter theme
 Credit to Underscores or _s <https://github.com/Automattic/_s >
 
-### Gulp Setup - NPM -
+## Gulp Setup and Workflow - NPM -
 Reference: 
 <https://www.sitepoint.com/wordpress-theme-automation-with-gulp/>
+
 <https://whizbangapps.com/blog/setting-up-wordpress-with-underscores-and-gulp>
 
-Steps (run on command line):
-#### Global
+<https://www.sitepoint.com/simple-gulpy-workflow-sass/>
+
+#### Global - Steps (run on command line):
 * Remove older versions:
 npm rm -g gulp 
 npm uninstall --global gulp gulp-cli
@@ -77,8 +79,8 @@ https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/
 #### Browser Sync
 * npm install browser-sync --save-dev
 
-## Gulp Workflow
-https://www.sitepoint.com/simple-gulpy-workflow-sass/
+#### Enhancements
+
 
 
 ### Commands to run gulp to compile sass/js
