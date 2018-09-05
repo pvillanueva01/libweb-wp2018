@@ -1,6 +1,6 @@
 {
   "browserSyncOptions" : {
-    "proxy": "http://pv-wp2018/",
+    "proxy": "http://localhost/uml-wp/",
     "notify": false
   },
   "browserSyncWatchFiles" : [
