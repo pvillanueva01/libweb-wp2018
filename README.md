@@ -1,5 +1,5 @@
-# libweb-wp-test
-WP Files Misc Testing
+# libweb-wp2018
+WP Files | Themes for UML WP Development
 
 ## WP Setup
 * WP version 4.9.8 with classic editor enabled
