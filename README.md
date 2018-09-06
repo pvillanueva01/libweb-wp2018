@@ -88,6 +88,9 @@ https://www.liquidlight.co.uk/blog/article/how-do-i-update-to-gulp-4/
 #### Add Animations Library
 * npm install animate.css --save-dev
 
+#### Add JS OffCanvas Library
+*npm install js-offcanvas --save-dev
+
 #### Enhancements
 * Gulp copy assets task: to move needed libraries from node_modules to project root src directory: <https://understrap.github.io/>
 * gulp copy-assets
