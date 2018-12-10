@@ -7,6 +7,10 @@
  * @package understrap
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!DOCTYPE html>
@@ -24,12 +28,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <body <?php body_class(); ?>>
 
-<div class="hfeed site" id="page">
+<div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
-		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
+		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
 
