@@ -54,6 +54,8 @@
     "autoprefixer": "^9.5.1",
     "gulp-babel": "^8.0.0",
     "gulp-postcss": "^8.0.0",
-    "tar": "4.4.2"
+    "tar": "4.4.2",
+    "axios": "^0.18.1",
+    "braces": "2.3.1"
   }
 }
